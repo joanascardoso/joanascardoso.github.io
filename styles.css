@@ -1,7 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Madimi+One&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap);
+
 * 
 {
 
   margin:  0;
   padding: 0;
   
+}
+
+
+
+body
+{
+    font-family: "Arsenal", sans-serif;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+h1
+{
+    font-family: "Arsenal", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h1 span
+{
+    font-family: "Birthstone Bounce", cursive;
+    color: #FFFFFF;
+
+}
+
+a
+{
+    color: #FFFFFF;
 }
