@@ -12,7 +12,6 @@
 }
 
 
-
 body
 {
     font-family: "Arsenal", sans-serif;
@@ -20,7 +19,7 @@ body
     background-color: #000000;
 }
 
-h1
+h1,h2
 {
     margin-left: 1em;
     font-family: "Arsenal", sans-serif;
@@ -31,7 +30,15 @@ h1
     
 }
 
+
 h1 span
+{
+    font-family: "Birthstone Bounce", cursive;
+    color: #FFFFFF;
+
+}
+
+h2 span
 {
     font-family: "Birthstone Bounce", cursive;
     color: #FFFFFF;
@@ -50,7 +57,9 @@ nav a:hover
     color: #FFFFFF;
 }
 
-nav{
+nav
+{
+    
     text-align: right;
     outline: 1px solid #FFFFFF;
     padding-top: 1em;
@@ -58,41 +67,63 @@ nav{
 
 }
 
-nav a {
+nav a 
+{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.5em;
     margin-right: 5em;
 }
 
-p{
+p
+{
     margin-top: 1em;
     margin-left: 2em;
 }
 
-ul, ol{
+ul, ol
+{
     margin-left: 2em;
     list-style-type: none;
 }
 
-h2{
+h2
+{
     margin-left: 2em;
     margin-top: 2em;
 
 }
 
-h3{
+h3
+{
     margin-top: 2em;
     margin-left: 3em;
 
 }
 
-section{
+section
+{
     margin-left: 3em;
-    margin-top: 3em;
     display: inline-block; 
     padding: 0em;
     padding-bottom: 1em; 
     padding-right: 1em; 
     outline: 1px solid #FFFFFF;
+}
+
+img
+{
+    /*para centrar a imagem e redimensionar conforme tamanho do ecrã*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 50%;
+}
+
+#selecionado
+{
+    text-decoration: underline;
+    color: #FFFFFF;
 }
