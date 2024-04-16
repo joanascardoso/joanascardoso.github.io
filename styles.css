@@ -19,8 +19,21 @@ body
     background-color: #000000;
 }
 
-h1,h2
+h1
 {
+    display: inline;
+    margin-left: 1em;
+    font-family: "Arsenal", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    
+}
+
+h2
+{
+    
     margin-left: 1em;
     font-family: "Arsenal", sans-serif;
     text-transform: uppercase;
@@ -59,21 +72,30 @@ nav a:hover
 
 nav
 {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+
     
-    text-align: right;
     outline: 1px solid #FFFFFF;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #000000;
+    margin-left: -2em;
 
 }
 
 nav a 
 {
+    
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.5em;
-    margin-right: 5em;
+    margin-right: 2em;
+    margin-left: 3em;
+    margin-right: 2em;
 }
+
 
 p
 {
@@ -111,7 +133,7 @@ section
     outline: 1px solid #FFFFFF;
 }
 
-img
+#homeimg
 {
     /*para centrar a imagem e redimensionar conforme tamanho do ecrã*/
     display: block;
@@ -125,4 +147,122 @@ img
 #selecionado
 {
     text-decoration: underline;
+}
+
+figure 
+{
+  width: 30%;
+  
+  float: left;
+  
+  margin-top: 3em;
+  margin-left: 3em;
+  
+  /*
+  border-width: 1px;
+  border-color: blue;
+  border-style: solid;*/
+  
+}
+
+
+figure img 
+{
+  background-color: lightblue;
+  width: 100%;
+}
+
+
+footer
+{
+    
+   font-size: 1.2em; 
+   word-spacing: 7em;
+   text-align: center;
+   margin-top: 1em;
+   outline: 1px solid #FFFFFF;
+   padding: 1em;
+   background-color: #000000;
+}
+
+/* X-Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 599px) 
+{
+    figure 
+    {
+      width: 80%;
+    }
+  /*  body 
+   {
+      background-color: blue;
+    }*/
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    figure 
+    {
+      width: 84%;
+    }
+   /* body 
+    {
+      background-color: red;
+    }*/
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    figure 
+    {
+      width: 40%;
+    }
+   /* body 
+    {
+      background-color: yellow;
+    }*/
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    figure 
+    {
+      width: 27%;
+    }
+  /*  body 
+    {
+      background-color: pink;
+    }*/
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    figure 
+  {
+    width: 28%;
+  }
+ /* body 
+  {
+    background-color: grey;
+  }*/
+}
+
+/* XX-large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1408px) 
+{
+    figure 
+  {
+    width: 30%;
+  }
+ /* body 
+  {
+    background-color: green;
+  }*/
 }
