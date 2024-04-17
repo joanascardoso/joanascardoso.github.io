@@ -4,7 +4,7 @@
 
 * 
 {
-   /* outline: 1px dashed red;
+  /*  outline: 1px dashed red;
     outline-offset: -1px;*/
   margin:  0;
   padding: 0;
@@ -19,6 +19,24 @@ body
     background-color: #000000;
 }
 
+.contactos p
+{
+  font-family: "Arsenal", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 8em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.contactos span
+{
+  font-family: "Birthstone Bounce", cursive;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
 h1
 {
     display: inline;
@@ -28,6 +46,7 @@ h1
     color: #FFFFFF;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
+    
     
 }
 
@@ -96,6 +115,23 @@ nav a
     margin-right: 2em;
 }
 
+address 
+{
+  margin-left: 6em;
+  font-size: 1.4em;
+}
+
+address img
+{
+  float: left;
+  width: 1.5em;
+}
+address p
+{
+  margin-left: 3em;
+  margin-bottom: 1.5em;
+  word-spacing: 1em;
+}
 
 p
 {
@@ -114,6 +150,18 @@ h2
     margin-left: 2em;
     margin-top: 2em;
 
+}
+
+.menu
+{
+  display: inline;
+  margin-left: 48em;
+}
+
+.logo
+{
+  padding-right: 3em;
+  border-right: 1px solid #FFFFFF;
 }
 
 h3
@@ -141,7 +189,15 @@ section
     margin-right: auto;
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 50%;
+    width: 80%;
+}
+
+#meutrabalho
+{
+  position: absolute;
+  left: 66.6%;
+  top: 30%;
+  font-size: 2.5em;
 }
 
 #selecionado
@@ -173,17 +229,23 @@ figure img
 }
 
 
+
+
 footer
 {
-    
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
    font-size: 1.2em; 
    word-spacing: 7em;
    text-align: center;
-   margin-top: 1em;
    outline: 1px solid #FFFFFF;
    padding: 1em;
    background-color: #000000;
 }
+
+
 
 /* X-Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 599px) 
