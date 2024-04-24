@@ -161,13 +161,18 @@ h3 {
 
 }
 
+/*Secção onde o texto fica dentro da outline para criar uma caixa, justifiquei o texto à esquerda e alterei o tamanho da caixa*/
 section {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 40%;
   margin-left: 3em;
   display: inline-block;
   padding: 0em;
   padding-bottom: 1em;
-  padding-right: 1em;
+  padding-right: 2em;
   outline: 1px solid #FFFFFF;
+  
 }
 
 #homeimg {
@@ -177,6 +182,16 @@ section {
   margin-right: auto;
   margin-bottom: 2em;
   width: 80%;
+}
+
+/*Botão "About my work" -> defini a largura desejada e coloquei a altura a auto, para redimensionar consoante o tamanho do ecrã e ajustei a posição (absolute para ficar em cima da outra imagem) consoante o design pretendido, usei percentagens para o design ser responsive */
+#botaomain
+{
+  width: 30%;
+  height: auto;
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 55%;
 }
 
 #meutrabalho {
@@ -241,7 +256,7 @@ footer {
   }
 
   nav {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
 
@@ -253,6 +268,21 @@ footer {
     font-size: 1em;
     word-spacing: 5em;
   }
+
+  /*Ajustei este botão quando o ecrã tem o tamanho mais pequeno para o destacar e facilitar o click no mesmo*/
+  #botaomain
+{
+  width: 84%;
+  height: auto;
+  position: relative;
+  margin-top: 0%;
+  margin-left: 10%;
+}
+
+/*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+section {
+  width: 75%;
+}
 }
 
 
@@ -273,6 +303,11 @@ footer {
   body {
     background-color: red;
   }
+
+  /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+  section {
+    width: 82%;
+  }
 }
 
 
@@ -283,7 +318,12 @@ footer {
   }
 
   body {
-    background-color: yellow;
+    background-color: rgb(255, 187, 0);
+  }
+
+/*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+  section {
+    width: 87%;
   }
 }
 
@@ -297,6 +337,11 @@ footer {
   body {
     background-color: pink;
   }
+
+  /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+  section {
+    width: 50%;
+  }
 }
 
 
@@ -309,6 +354,11 @@ footer {
   body {
     background-color: grey;
   }
+  
+  /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+  section {
+    width: 40%;
+  }
 }
 
 /* XX-large devices (large laptops and desktops, 1200px and up) */
@@ -319,5 +369,10 @@ footer {
 
   body {
     background-color: green;
+  }
+
+  /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+  section {
+    width: 40%;
   }
 }
