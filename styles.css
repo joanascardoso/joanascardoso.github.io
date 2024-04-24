@@ -290,11 +290,11 @@ section {
   /*Ajusta o tamanho do conteúdo na página dos contactos para ecrãs menores*/
   .contactos
   {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
   address
   {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 
