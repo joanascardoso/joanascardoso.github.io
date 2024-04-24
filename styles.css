@@ -13,6 +13,8 @@
 main
 {
   margin-top: 8em;
+  margin-bottom: 4em;
+
 }
 
 body {
@@ -192,6 +194,7 @@ section {
   position: absolute;
   margin-top: -30%;
   margin-left: 55%;
+  margin-bottom: 4em;
 }
 
 #meutrabalho {
@@ -283,6 +286,16 @@ footer {
 section {
   width: 75%;
 }
+
+  /*Ajusta o tamanho do conteúdo na página dos contactos para ecrãs menores*/
+  .contactos
+  {
+    font-size: 0.7em;
+  }
+  address
+  {
+    font-size: 0.9em;
+  }
 }
 
 
@@ -307,6 +320,16 @@ section {
   /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
     width: 82%;
+  }
+
+  /*Ajusta o tamanho do conteúdo na página dos contactos para ecrãs menores*/
+  .contactos
+  {
+    font-size: 0.8em;
+  }
+  address
+  {
+    font-size: 1.2em;
   }
 }
 
