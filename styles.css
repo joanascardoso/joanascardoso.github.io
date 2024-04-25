@@ -139,6 +139,12 @@ ol {
   list-style-type: none;
 }
 
+li{
+  margin-left: 1em;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+
 h2 {
   margin-left: 2em;
   margin-top: 2em;
@@ -230,7 +236,21 @@ figure img {
 }
 
 
+article img
+{
+  position: absolute;
+  left: 65%;
+  bottom: 47%;
+/*  outline: 1px dashed blue;*/
+  width: 20%;
+  height: auto;
+}
 
+#cv
+{
+  border: 1px solid blue;
+  bottom: 40%;
+}
 
 footer {
   position: fixed;
@@ -245,7 +265,7 @@ footer {
   background-color: #000000;
 }
 
-
+/*---------------------RESPONSIVE---------------------*/
 
 /* X-Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 599px) {
@@ -254,9 +274,9 @@ footer {
     width: 80%;
   }
 
-  body {
+ /* body {
     background-color: rgb(31, 219, 233);
-  }
+  }*/
 
   nav {
     font-size: 0.8em;
@@ -296,6 +316,22 @@ section {
   {
     font-size: 0.7em;
   }
+
+  article img
+{
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+/*  outline: 1px dashed blue;*/
+  width: 50%;
+  height: auto;
+}
+
+#cv
+{
+  border: 1px solid blue;
+  bottom: 5%;
+}
 }
 
 
@@ -313,9 +349,9 @@ section {
     gap: 1%;
   }
 
-  body {
+ /* body {
     background-color: red;
-  }
+  }*/
 
   /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
@@ -331,6 +367,22 @@ section {
   {
     font-size: 1.2em;
   }
+
+  article img
+  {
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+  /*  outline: 1px dashed blue;*/
+    width: 50%;
+    height: auto;
+  }
+  
+  #cv
+  {
+    border: 1px solid blue;
+    bottom: 5%;
+  }
 }
 
 
@@ -340,9 +392,9 @@ section {
     width: 40%;
   }
 
-  body {
+ /* body {
     background-color: rgb(255, 187, 0);
-  }
+  }*/
 
 /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
@@ -357,7 +409,7 @@ section {
     width: 27%;
   }
 
-  body {
+ body {
     background-color: pink;
   }
 
@@ -365,6 +417,22 @@ section {
   section {
     width: 50%;
   }
+
+  article img
+{
+  position: absolute;
+  left: 65%;
+  bottom: 55%;
+/*  outline: 1px dashed blue;*/
+  width: 25%;
+  height: auto;
+}
+
+#cv
+{
+  border: 1px solid blue;
+  bottom: 50%;
+}
 }
 
 
@@ -374,14 +442,29 @@ section {
     width: 28%;
   }
 
-  body {
+ /* body {
     background-color: grey;
-  }
+  }*/
   
   /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
     width: 40%;
   }
+  article img
+{
+  position: absolute;
+  left: 65%;
+  bottom: 47%;
+/*  outline: 1px dashed blue;*/
+  width: 20%;
+  height: auto;
+}
+
+#cv
+{
+  border: 1px solid blue;
+  bottom: 40%;
+}
 }
 
 /* XX-large devices (large laptops and desktops, 1200px and up) */
@@ -398,4 +481,19 @@ section {
   section {
     width: 40%;
   }
+  article img
+{
+  position: absolute;
+  left: 65%;
+  bottom: 47%;
+/*  outline: 1px dashed blue;*/
+  width: 20%;
+  height: auto;
+}
+
+#cv
+{
+  border: 1px solid blue;
+  bottom: 40%;
+}
 }
