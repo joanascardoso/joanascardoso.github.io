@@ -248,7 +248,7 @@ article img
 
 #cv
 {
-  border: 1px solid blue;
+ /* border: 1px solid blue;*/
   bottom: 40%;
 }
 
@@ -274,9 +274,9 @@ footer {
     width: 80%;
   }
 
- /* body {
+  body {
     background-color: rgb(31, 219, 233);
-  }*/
+  }
 
   nav {
     font-size: 0.8em;
@@ -329,7 +329,7 @@ section {
 
 #cv
 {
-  border: 1px solid blue;
+ /* border: 1px solid blue;*/
   bottom: 5%;
 }
 }
@@ -349,9 +349,9 @@ section {
     gap: 1%;
   }
 
- /* body {
+  body {
     background-color: red;
-  }*/
+  }
 
   /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
@@ -380,7 +380,7 @@ section {
   
   #cv
   {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     bottom: 5%;
   }
 }
@@ -392,13 +392,29 @@ section {
     width: 40%;
   }
 
- /* body {
+  body {
     background-color: rgb(255, 187, 0);
-  }*/
+  }
 
 /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
     width: 87%;
+  }
+
+  article img
+  {
+    position: absolute;
+    left: 25%;
+    bottom: 16%;
+    /*outline: 1px dashed blue;*/
+    width: 50%;
+    height: auto;
+  }
+  
+  #cv
+  {
+   /* border: 1px solid blue;*/
+    bottom: 5%;
   }
 }
 
@@ -430,7 +446,7 @@ section {
 
 #cv
 {
-  border: 1px solid blue;
+ /* border: 1px solid blue;*/
   bottom: 50%;
 }
 }
@@ -442,9 +458,9 @@ section {
     width: 28%;
   }
 
- /* body {
+  body {
     background-color: grey;
-  }*/
+  }
   
   /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
@@ -454,7 +470,7 @@ section {
 {
   position: absolute;
   left: 65%;
-  bottom: 47%;
+  bottom:55%;
 /*  outline: 1px dashed blue;*/
   width: 20%;
   height: auto;
@@ -462,8 +478,8 @@ section {
 
 #cv
 {
-  border: 1px solid blue;
-  bottom: 40%;
+  /*border: 1px solid blue;*/
+  bottom: 49%;
 }
 }
 
@@ -493,7 +509,7 @@ section {
 
 #cv
 {
-  border: 1px solid blue;
+ /* border: 1px solid blue;*/
   bottom: 40%;
 }
 }
