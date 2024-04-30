@@ -189,7 +189,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
-  width: 80%;
+  height: 50vh;
 }
 
 /*Botão "About my work" -> defini a largura desejada e coloquei a altura a auto, para redimensionar consoante o tamanho do ecrã e ajustei a posição (absolute para ficar em cima da outra imagem) consoante o design pretendido, usei percentagens para o design ser responsive */
@@ -198,8 +198,12 @@ section {
   width: 30%;
   height: auto;
   position: absolute;
+  top: 200px;
+  right: 15vw;
+  /*
   margin-top: -30%;
   margin-left: 55%;
+  */
   margin-bottom: 4em;
 }
 
@@ -220,7 +224,7 @@ figure {
   float: left;
 
   margin-bottom: 4em;
-  margin-left: 3em;
+  margin-left: 3%;
 
   /*
   border-width: 1px;
@@ -252,6 +256,33 @@ article img
   bottom: 40%;
 }
 
+/*---- Projetos ----*/
+.descricao
+{
+  margin-left: 3em;
+}
+
+/*galeria 3 imagens em linha*/
+
+.imagens figure
+{
+  outline: 1px dashed red;
+  margin-left: 3em;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.imagens video{
+  width: 100%;
+}
+
+/*---- /Projetos ----*/
+
+
 footer {
   position: fixed;
   left: 0;
@@ -270,6 +301,10 @@ footer {
 /* X-Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 599px) {
 
+  #homeimg {
+    width: 80%;
+    height: auto;
+  }
   figure {
     width: 80%;
   }
@@ -297,9 +332,8 @@ footer {
 {
   width: 84%;
   height: auto;
-  position: relative;
-  margin-top: 0%;
-  margin-left: 10%;
+  margin-top: 30%;
+  left: 10%;
 }
 
 /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
@@ -383,6 +417,11 @@ section {
     /*border: 1px solid blue;*/
     bottom: 5%;
   }
+
+  #homeimg {
+    width: 80%;
+    height: auto;
+  }
 }
 
 
@@ -390,6 +429,7 @@ section {
 @media only screen and (min-width: 768px) {
   figure {
     width: 40%;
+    margin-left: 10%;
   }
 
   body {
@@ -415,6 +455,11 @@ section {
   {
    /* border: 1px solid blue;*/
     bottom: 5%;
+  }
+
+  #homeimg {
+    width: 80%;
+    height: auto;
   }
 }
 
@@ -481,12 +526,20 @@ section {
   /*border: 1px solid blue;*/
   bottom: 49%;
 }
+
+#homeimg {
+  width: 80%;
+  height: auto;
 }
+}
+
+
 
 /* XX-large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1440px) {
   figure {
     width: 30%;
+    margin-left: 2.5%;
   }
 
   body {
@@ -511,5 +564,9 @@ section {
 {
  /* border: 1px solid blue;*/
   bottom: 40%;
+}
+#homeimg {
+  width: 80%;
+  height: auto;
 }
 }
