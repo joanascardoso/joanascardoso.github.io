@@ -1,17 +1,32 @@
-@import url(https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Madimi+One&display=swap);
+/*
+    Nome: Joana Sofia Correia Cardoso
+    Nr estudante: 3210451
+    Portfólio
+    3º ano, 2023/2024
+    2º Semestre
+    UC: Laboratório de Projeto II
+    Curso: DGM
+    ESAD.CR
+    Docente: Marco Heleno
+    4 junho de 2024
+*/
 
+/*importa os tipos de letra escolhidos na web (google fonts) para depois serem referidos no font-family */
+@import url(https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Madimi+One&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap);
 
+/* o "*" seleciona todos os elementos*/
 * {
   /*outline: 1px dashed green;
     outline-offset: -1px;*/
   margin: 0;
+  /* todas as margens ficam a 0 */
   padding: 0;
-
+  /* todos os paddings ficam a 0 */
 }
 
-main
-{
+/*ajusta as margens do main no top e no bottom, conforme pretendido */
+main {
   margin-top: 8em;
   margin-bottom: 4em;
 
@@ -19,172 +34,268 @@ main
 
 body {
   font-family: "Arsenal", sans-serif;
+  /*a tipografia principal do body é a Arsenal (importada da web), caso não apareça ao utilizador, é substituída por uma sem serifa*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
   background-color: #000000;
+  /*cor do fundo a preto*/
 
 }
 
+/*seleciona os parágrafos da class contactos*/
 .contactos p {
   font-family: "Arsenal", sans-serif;
+  /*a tipografia é a Arsenal (importada da web), caso não apareça ao utilizador, é substituída por uma sem serifa*/
   text-transform: uppercase;
+  /*texto em maiúsculas*/
   font-weight: lighter;
+  /*muda o peso da fonte para um mais leve*/
   font-size: 8em;
+  /*define o tamanho da fonte*/
   margin-left: 0.5em;
+  /*define o tamanho da margem esquerda*/
   margin-top: 0.5em;
+  /*define o tamanho da margem superior*/
 }
 
+/*seleciona o span da class contactos para criar um elemento tipográfico diferente*/
 .contactos span {
   font-family: "Birthstone Bounce", cursive;
+  /*a tipografia é a Birthstone Bounce (importada da web), caso não apareça ao utilizador, é substituída por uma cursiva*/
   text-transform: uppercase;
+  /*texto em maiúsculas*/
   font-weight: lighter;
+  /*muda o peso da fonte para um mais leve*/
   font-size: 1em;
+  /*define o tamanho da fonte*/
 }
 
 h1 {
   display: inline;
+  /*muda a disposição dos elementos para: em linha*/
   font-family: "Arsenal", sans-serif;
+  /*a tipografia é a Arsenal (importada da web), caso não apareça ao utilizador, é substituída por uma sem serifa*/
   text-transform: uppercase;
+  /*texto em maiúsculas*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
   margin-left: 1.1em;
+  /*define o tamanho da margem esquerda*/
   margin-bottom: 0.5em;
+  /*define o tamanho da margem inferior*/
   margin-top: 0.5em;
-
-
+  /*define o tamanho da margem superior*/
 }
 
 h2 {
 
   margin-left: 1em;
+  /*define o tamanho da margem esquerda*/
   font-family: "Arsenal", sans-serif;
+  /*a tipografia é a Arsenal (importada da web), caso não apareça ao utilizador, é substituída por uma sem serifa*/
   text-transform: uppercase;
+  /*texto em maiúsculas*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
   margin-bottom: 0.5em;
+  /*define o tamanho da margem inferior*/
   margin-top: 0.5em;
+  /*define o tamanho da margem superior*/
 
 }
 
+/*seleciona o span do h1 para criar um elemento tipográfico diferente*/
 h1 span {
   font-family: "Birthstone Bounce", cursive;
+  /*a tipografia é a Birthstone Bounce (importada da web), caso não apareça ao utilizador, é substituída por uma cursiva*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
 
 }
 
+/*seleciona o span do h2 para criar um elemento tipográfico diferente*/
 h2 span {
   font-family: "Birthstone Bounce", cursive;
+  /*a tipografia é a Birthstone Bounce (importada da web), caso não apareça ao utilizador, é substituída por uma cursiva*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
 
 }
 
+/*hiperligações*/
 a {
   text-decoration: none;
+  /*retira a linha inferior default nos links (a)*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
 }
 
+/*links do menu ao passar o rato*/
 nav a:hover {
   text-decoration: underline;
+  /*adiciona a linha inferior nos links (a) quando o rato está por cima*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
 }
 
+/*menu*/
 nav {
   position: fixed;
+  /*deixa de estar ancorado ao parent e fica ligado à janela, numa posição fixa*/
   top: 0px;
+  /*ajusta a posição a nível superior*/
   left: 0px;
+  /*ajusta a posição à esquerda*/
   width: 100%;
-
-
+  /*define a largura*/
   font-size: 1.5em;
+  /*define o tamanho da fonte*/
   border-bottom: 1px solid #FFFFFF;
+  /*cria uma linha inferior, somente estética*/
   padding: 0em;
+  /*ajusta o padding para 0*/
   background-color: #000000;
+  /*cor do fundo a preto*/
   display: flex;
+  /*coloca um elemento como flexível ao nível do bloco*/
   justify-content: space-between;
+  /*os items ficam com espaço entre eles*/
   align-items: center;
+  /*alinha os items ao centro*/
   padding-right: 1em;
+  /*ajusta o padding à direita*/
 
 }
 
+/*links do menu*/
 nav a {
-
   margin-left: 0.5em;
+  /*define o tamanho da margem esquerda*/
   margin-right: 1em;
+  /*define o tamanho da margem direita*/
   text-decoration: none;
+  /*retira a linha inferior default nos links*/
   color: #FFFFFF;
+  /*cor do texto a branco*/
   display: flex;
+  /*coloca um elemento como flexível ao nível do bloco*/
 }
 
+/*contentor dos contactos*/
 address {
   margin-left: 6em;
+  /*define o tamanho da margem esquerda*/
   font-size: 1.4em;
+  /*define o tamanho da fonte*/
 }
 
+/*imagens no contentor dos contactos*/
 address img {
   float: left;
+  /*O elemento é deslocado para a esquerda do contentor*/
   width: 1.5em;
+  /*define o tamanho da largura das imagens*/
 }
 
+/*parágrafos no contentor dos contactos*/
 address p {
   margin-left: 3em;
+  /*define o tamanho da margem esquerda*/
   margin-bottom: 1.5em;
+  /*define o tamanho da margem inferior*/
   word-spacing: 1em;
+  /*define o espaçamento entre palavras*/
 }
 
+/*parágrafos*/
 p {
   margin-top: 1em;
+  /*define o tamanho da margem superior*/
   margin-left: 2em;
+  /*define o tamanho da margem esquerda*/
 }
 
+/*listas não ordenadas e ordenadas*/
 ul,
 ol {
   margin-left: 2em;
+  /*define o tamanho da margem esquerda*/
   list-style-type: none;
+  /*listas ficam sem o marcador*/
 }
 
-li{
+/*listas*/
+li {
   margin-left: 1em;
+  /*define o tamanho da margem esquerda*/
   line-height: 1.7em;
+  /*define a altura das linhas*/
   text-transform: uppercase;
+  /*maiúsculas*/
 }
 
 h2 {
   margin-left: 2em;
+  /*define o tamanho da margem esquerda*/
   margin-top: 2em;
+  /*define o tamanho da margem superior*/
 
 }
 
+/*class menu*/
 .menu {
   display: flex;
+  /*coloca um elemento como flexível ao nível do bloco*/
   gap: 10%;
+  /*espaços à volta*/
   margin-right: 5%;
+  /*define o tamanho da margem direita*/
 }
 
+/*class logo*/
 .logo {
   float: left;
+  /*O elemento é deslocado para a esquerda do contentor*/
   border-right: 1px solid #FFFFFF;
+  /*coloca uma linha decorativa à direita do elemento*/
   padding-right: 2em;
+  /*define o tamanho do padding direito*/
 }
+
 
 h3 {
   margin-top: 2em;
+  /*define o tamanho da margem superior*/
   margin-left: 3em;
+  /*define o tamanho da margem esquerda*/
 
 }
 
 /*Secção onde o texto fica dentro da outline para criar uma caixa, justifiquei o texto à esquerda e alterei o tamanho da caixa*/
 section {
   text-align: justify;
+  /*texto justificado*/
   text-justify: inter-word;
+  /*ajusta o espaço entre palavras*/
   width: 40%;
+  /*define a largura da secção para 40%  */
   margin-left: 3em;
+  /*define o tamanho da margem esquerda*/
   display: inline-block;
+  /*coloca os elementos do bloco em linha*/
   padding: 0em;
+  /*coloca todo o padding a 0*/
   padding-bottom: 1em;
+  /*define o padding inferior*/
   padding-right: 2em;
+  /*define o padding direito*/
   outline: 1px solid #FFFFFF;
-  
+  /*cria uma caixa com a linha branca*/
 }
 
+/*id homeimg (imagem no index)*/
 #homeimg {
-  /*para centrar a imagem e redimensionar conforme tamanho do ecrã*/
+  /* estes valores centram a imagem e redimensionam a mesma conforme tamanho do ecrã*/
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -192,9 +303,10 @@ section {
   height: 50vh;
 }
 
-/*Botão "About my work" -> defini a largura desejada e coloquei a altura a auto, para redimensionar consoante o tamanho do ecrã e ajustei a posição (absolute para ficar em cima da outra imagem) consoante o design pretendido, usei percentagens para o design ser responsive */
-#botaomain
-{
+/*Botão "About my work" -> defini a largura desejada e coloquei a altura a auto, para redimensionar consoante o tamanho do ecrã e 
+ajustei a posição (absolute para ficar em cima da outra imagem) 
+consoante o design pretendido, usei percentagens para o design ser responsive */
+#botaomain {
   width: 30%;
   height: auto;
   position: absolute;
@@ -207,24 +319,23 @@ section {
   margin-bottom: 4em;
 }
 
-#meutrabalho {
-  position: absolute;
-  left: 66.6%;
-  top: 30%;
-  font-size: 2.5em;
-}
-
+/*id selecionado, para que apareça uma linha inferior no texto da página pretendida*/
 #selecionado {
   text-decoration: underline;
 }
 
+/*contentor das imagens*/
 figure {
   width: 30%;
+  /*define a largura das imagens*/
 
   float: left;
+  /*coloca em linha as imagens à esquerda*/
 
   margin-bottom: 4em;
+  /*define a margem inferior*/
   margin-left: 3%;
+  /*define a margem à esquerda*/
 
   /*
   border-width: 1px;
@@ -233,67 +344,103 @@ figure {
 
 }
 
-
+/*define as imagens a 100% na caixa*/
 figure img {
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   width: 100%;
 }
 
-
-article img
-{
+/*imagem na página do sobre mim*/
+article img {
   position: absolute;
+  /*imagem ancorada ao parent, fica por cima*/
   left: 65%;
+  /*define a posição à esquerda*/
   bottom: 47%;
-/*  outline: 1px dashed blue;*/
+  /*define a posição inferior*/
+  /*  outline: 1px dashed blue;*/
   width: 20%;
+  /*define a largura*/
   height: auto;
+  /*coloca a altura a ajustar automaticamente*/
 }
 
-#cv
-{
- /* border: 1px solid blue;*/
+#cv {
+  /* border: 1px solid blue;*/
   bottom: 40%;
+  /*muda a posição a nivel inferior*/
 }
 
 /*---- Projetos ----*/
-.descricao
-{
-  margin-left: 3em;
+
+/*class da descricao dos projetos*/
+.descricao {
+  margin-left: 2.5%;
+  /*define o tamanho da margem esquerdaa*/
+  text-align: justify;
+  /*texto justificado*/
+  text-justify: inter-word;
+  /*ajusta o espaço entre palavras*/
+  width: 93.3%;
+  /*ajusta largura da caixa*/
+  display: inline-block;
+  /*coloca os elementos do bloco em linha*/
+  padding: 1%;
+  /*ajusta o tamanho do padding*/
+  outline: 1px solid #FFFFFF;
+  /*cria uma caixa com a linha linha branca*/
+  margin-bottom: 2%;
+  /*define o tamanho da margem inferior*/
 }
 
-/*galeria 3 imagens em linha*/
-
-.imagens figure
-{
-  outline: 1px dashed red;
+/*-------galeria 3 imagens/video em linha dos projetos-------*/
+.imagens figure {
+  /* outline: 1px dashed rgb(255, 0, 0);*/
   margin-left: 3em;
+  /*define o tamanho da margem esquerda*/
   width: 30%;
+  /*define o tamanho das imagens*/
   display: flex;
+  /*coloca os elementos flexiveis*/
   flex-direction: row;
+  /*coloca os elementos em linha*/
   justify-content: flex-start;
+  /*os elementos em linha são justificados à esquerda, alinhados na horizontal*/
   flex-wrap: wrap;
+  /*ajustar elementos*/
   align-content: flex-start;
+  /*as linhas são alinhadas no início do contentor flexível*/
 }
 
-.imagens video{
+.imagens video {
   width: 100%;
+  /*largura do video definida a 100%*/
 }
 
 /*---- /Projetos ----*/
 
-
+/*barra no fim da página*/
 footer {
   position: fixed;
+  /*deixa de estar ancorado ao parent e fica ligado à janela, numa posição fixa*/
   left: 0;
+  /*define a posição à esquerda*/
   bottom: 0;
+  /*define a posição inferior*/
   width: 100%;
+  /*define a largura a 100% da janela*/
   font-size: 1.2em;
+  /*define o tamanho da fonte*/
   word-spacing: 7em;
+  /*ajusta o espaçamento entre palavras*/
   text-align: center;
+  /*alinha o texto ao centro*/
   border-top: 1px solid #FFFFFF;
+  /*cria uma linha decorativa no topo da caixa*/
   padding: 1em;
+  /*define o tamanho do padding*/
   background-color: #000000;
+  /*cor de fundo a preto*/
 }
 
 /*---------------------RESPONSIVE---------------------*/
@@ -301,88 +448,112 @@ footer {
 /* X-Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 599px) {
 
+  /*ajusta o tamanho da largura e a altura muda automaticamente consoante o tamanho do ecrã*/
   #homeimg {
     width: 80%;
     height: auto;
   }
+
+  /*ajusta o tamanho do figure na largura e na margem esquerda consoante o tamanho do ecrã*/
   figure {
     width: 80%;
+    margin-left: 10%;
   }
 
+  /*somente para visualizar quando estou a editar os tamanhos para tornar o projeto responsive*/
   body {
     background-color: rgb(31, 219, 233);
   }
 
+  /*ajusta o tamanho da fonte do menu, para este ficar responsive*/
   nav {
     font-size: 0.8em;
   }
 
-
+  /*ajusta o espaçamento do menu, para este ficar responsive*/
   .menu {
     gap: 1%;
   }
 
+  /*ajusta o tamanho da fonte do footer e o espaço entre palavras, para este ficar responsive*/
   footer {
     font-size: 1em;
     word-spacing: 5em;
   }
 
   /*Ajustei este botão quando o ecrã tem o tamanho mais pequeno para o destacar e facilitar o click no mesmo*/
-  #botaomain
-{
-  width: 84%;
-  height: auto;
-  margin-top: 30%;
-  left: 10%;
-}
+  #botaomain {
+    width: 84%;
+    height: auto;
+    margin-top: 30%;
+    left: 10%;
+  }
 
-/*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
-section {
-  width: 75%;
-}
+  /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+  section {
+    width: 75%;
+  }
 
   /*Ajusta o tamanho do conteúdo na página dos contactos para ecrãs menores*/
-  .contactos
-  {
+  .contactos {
     font-size: 0.5em;
   }
-  address
-  {
+
+  address {
     font-size: 0.7em;
   }
 
-  article img
-{
-  position: absolute;
-  left: 25%;
-  bottom: 10%;
-/*  outline: 1px dashed blue;*/
-  width: 50%;
-  height: auto;
-}
+  /*ajusta a posição da imagem tendo em conta o ecrã menor*/
+  article img {
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+    /*  outline: 1px dashed blue;*/
+    width: 50%;
+    height: auto;
+  }
 
-#cv
-{
- /* border: 1px solid blue;*/
-  bottom: 5%;
-}
+  /*ajusta a posição do botao do curriculum*/
+  #cv {
+    /* border: 1px solid blue;*/
+    bottom: 5%;
+  }
+
+  /*ajusta a caixa da descrição para o tamanho mais pequeno do ecrã*/
+  .descricao {
+    width: 77.7%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+
+  /*ajusta as imagens dos projetos para o tamanho mais pequeno do ecrã, 1 imagem/video por linha*/
+  .imagens figure {
+    width: 80%;
+  }
+
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+  /*ajusta o tamanho do figure na largura e na margem esquerda consoante o tamanho do ecrã*/
   figure {
     width: 84%;
+    margin-left: 8%;
   }
 
+  /*ajusta o tamanho da fonte do menu, para este ficar responsive*/
   nav {
     font-size: 1.2em;
   }
 
+  /*ajusta o espaçamento do menu, para este ficar responsive*/
   .menu {
     gap: 1%;
   }
 
+  /*somente para visualizar quando estou a editar os tamanhos para tornar o projeto responsive*/
   body {
     background-color: red;
   }
@@ -393,56 +564,71 @@ section {
   }
 
   /*Ajusta o tamanho do conteúdo na página dos contactos para ecrãs menores*/
-  .contactos
-  {
+  .contactos {
     font-size: 0.8em;
   }
-  address
-  {
+
+  address {
     font-size: 1.2em;
   }
 
-  article img
-  {
+  /*ajusta a posição da imagem tendo em conta o ecrã menor*/
+  article img {
     position: absolute;
     left: 25%;
     bottom: 10%;
-  /*  outline: 1px dashed blue;*/
+    /*  outline: 1px dashed blue;*/
     width: 50%;
     height: auto;
   }
-  
-  #cv
-  {
+
+  /*ajusta a posição do botao do curriculum*/
+  #cv {
     /*border: 1px solid blue;*/
     bottom: 5%;
   }
 
+  /*ajusta o tamanho da largura e a altura muda automaticamente consoante o tamanho do ecrã*/
   #homeimg {
     width: 80%;
     height: auto;
+  }
+
+  /*ajusta a caixa da descrição para o tamanho mais pequeno do ecrã*/
+  .descricao {
+    width: 80%;
+    margin-left: 8%;
+    margin-bottom: 10%;
+  }
+
+  /*ajusta as imagens dos projetos para o tamanho mais pequeno do ecrã, 1 imagem/video por linha*/
+  .imagens figure {
+    width: 84%;
   }
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+  /*ajusta o tamanho do figure na largura e na margem esquerda consoante o tamanho do ecrã*/
   figure {
-    width: 40%;
-    margin-left: 10%;
+    width: 38%;
+    margin-left: 8%;
   }
 
+  /*somente para visualizar quando estou a editar os tamanhos para tornar o projeto responsive*/
   body {
     background-color: rgb(255, 187, 0);
   }
 
-/*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
+  /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
     width: 87%;
   }
 
-  article img
-  {
+  /*ajusta a posição da imagem tendo em conta o ecrã menor*/
+  article img {
     position: absolute;
     left: 25%;
     bottom: 16%;
@@ -450,27 +636,44 @@ section {
     width: 50%;
     height: auto;
   }
-  
-  #cv
-  {
-   /* border: 1px solid blue;*/
+
+  /*ajusta a posição do botao do curriculum*/
+  #cv {
+    /* border: 1px solid blue;*/
     bottom: 5%;
   }
 
+  /*ajusta o tamanho da largura e a altura muda automaticamente consoante o tamanho do ecrã*/
   #homeimg {
     width: 80%;
     height: auto;
+  }
+
+  /*ajusta a caixa da descrição para o tamanho mais pequeno do ecrã*/
+  .descricao {
+    width: 86%;
+    margin-left: 5.5%;
+    margin-bottom: 10%;
+  }
+
+  /*ajusta as imagens dos projetos para o tamanho mais pequeno do ecrã, 1 imagem/video por linha*/
+  .imagens figure {
+    width: 88%;
   }
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+  /*ajusta o tamanho do figure na largura e na margem esquerda consoante o tamanho do ecrã*/
   figure {
-    width: 27%;
+    width: 29%;
+    margin-left: 3.1%;
   }
 
- body {
+  /*somente para visualizar quando estou a editar os tamanhos para tornar o projeto responsive*/
+  body {
     background-color: pink;
   }
 
@@ -479,69 +682,105 @@ section {
     width: 50%;
   }
 
-  article img
-{
-  position: absolute;
-  left: 65%;
-  bottom: 55%;
-/*  outline: 1px dashed blue;*/
-  width: 25%;
-  height: auto;
-}
+  /*ajusta a posição da imagem tendo em conta o ecrã menor*/
+  article img {
+    position: absolute;
+    left: 65%;
+    bottom: 55%;
+    /*  outline: 1px dashed blue;*/
+    width: 25%;
+    height: auto;
+  }
 
-#cv
-{
- /* border: 1px solid blue;*/
-  bottom: 50%;
-}
+  /*ajusta a posição do botao do curriculum*/
+  #cv {
+    /* border: 1px solid blue;*/
+    bottom: 50%;
+  }
+
+  /*ajusta a caixa da descrição para o tamanho mais pequeno do ecrã*/
+  .descricao {
+    width: 86%;
+    margin-left: 5.5%;
+    margin-bottom: 10%;
+  }
+
+  /*ajusta as imagens dos projetos para o tamanho mais pequeno do ecrã, 1 imagem/video por linha*/
+  .imagens figure {
+    margin-left: 6%;
+    width: 86%;
+  }
+
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  /*ajusta o tamanho do figure na largura e na margem esquerda consoante o tamanho do ecrã*/
   figure {
-    width: 28%;
+    width: 29%;
+    margin-left: 3%;
   }
 
+  /*somente para visualizar quando estou a editar os tamanhos para tornar o projeto responsive*/
   body {
     background-color: grey;
   }
-  
+
   /*Ajustei a largura da caixa para melhor leitura em diferentes ecrãs*/
   section {
     width: 40%;
   }
-  article img
-{
-  position: absolute;
-  left: 65%;
-  bottom:55%;
-/*  outline: 1px dashed blue;*/
-  width: 20%;
-  height: auto;
-}
 
-#cv
-{
-  /*border: 1px solid blue;*/
-  bottom: 49%;
-}
+  /*ajusta a posição da imagem tendo em conta o ecrã menor*/
+  article img {
+    position: absolute;
+    left: 65%;
+    bottom: 55%;
+    /*  outline: 1px dashed blue;*/
+    width: 20%;
+    height: auto;
+  }
 
-#homeimg {
-  width: 80%;
-  height: auto;
-}
+  /*ajusta a posição do botao do curriculum*/
+  #cv {
+    /*border: 1px solid blue;*/
+    bottom: 49%;
+  }
+
+  /*ajusta o tamanho da largura e a altura muda automaticamente consoante o tamanho do ecrã*/
+  #homeimg {
+    width: 80%;
+    height: auto;
+  }
+
+  /*ajusta a caixa da descrição para o tamanho mais pequeno do ecrã*/
+  .descricao {
+    width: 90%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+
+  /*ajusta as imagens dos projetos para o tamanho mais pequeno do ecrã, 1 imagem/video por linha*/
+  .imagens figure {
+    margin-left: 2%;
+    width: 30%;
+  }
 }
 
 
 
 /* XX-large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1440px) {
+
+  /*ajusta o tamanho do figure na largura e na margem esquerda consoante o tamanho do ecrã*/
   figure {
     width: 30%;
     margin-left: 2.5%;
   }
 
+  /*somente para visualizar quando estou a editar os tamanhos para tornar o projeto responsive*/
   body {
     background-color: green;
   }
@@ -550,23 +789,28 @@ section {
   section {
     width: 40%;
   }
-  article img
-{
-  position: absolute;
-  left: 65%;
-  bottom: 47%;
-/*  outline: 1px dashed blue;*/
-  width: 20%;
-  height: auto;
-}
 
-#cv
-{
- /* border: 1px solid blue;*/
-  bottom: 40%;
-}
-#homeimg {
-  width: 80%;
-  height: auto;
-}
+  /*ajusta a posição da imagem tendo em conta o ecrã menor*/
+  article img {
+    position: absolute;
+    left: 65%;
+    bottom: 47%;
+    /*  outline: 1px dashed blue;*/
+    width: 20%;
+    height: auto;
+  }
+
+  /*ajusta a posição do botao do curriculum*/
+  #cv {
+    /* border: 1px solid blue;*/
+    bottom: 40%;
+  }
+
+  /*ajusta o tamanho da largura e a altura muda automaticamente consoante o tamanho do ecrã*/
+  #homeimg {
+    width: 80%;
+    height: auto;
+  }
+
+
 }
