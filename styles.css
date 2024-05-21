@@ -32,6 +32,12 @@ main {
 
 }
 
+/*cria espaço entre o último figure na galeria de trabalhos e o footer*/
+.lastfigure
+{
+  margin-bottom: 7em;
+}
+
 body {
   font-family: "Arsenal", sans-serif;
   /*a tipografia principal do body é a Arsenal (importada da web), caso não apareça ao utilizador, é substituída por uma sem serifa*/
@@ -391,6 +397,7 @@ article img {
   /*cria uma caixa com a linha linha branca*/
   margin-bottom: 2%;
   /*define o tamanho da margem inferior*/
+  line-height: 2em;
 }
 
 /*-------galeria 3 imagens/video em linha dos projetos-------*/
