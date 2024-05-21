@@ -532,8 +532,8 @@ footer {
   article img {
     position: absolute;
     left: 40%;
-    bottom: 10%;
-      outline: 1px dashed blue;
+    bottom: 13%;
+    /*  outline: 1px dashed blue;*/
     width: 50%;
     height: auto;
   }
@@ -541,7 +541,7 @@ footer {
   /*ajusta a posição do botao do curriculum*/
   #cv {
     /* border: 1px solid blue;*/
-    bottom: 5%;
+    bottom: 8%;
   }
 
   /*ajusta a caixa da descrição para o tamanho mais pequeno do ecrã*/
