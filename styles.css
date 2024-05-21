@@ -531,9 +531,9 @@ footer {
   /*ajusta a posição da imagem tendo em conta o ecrã menor*/
   article img {
     position: absolute;
-    left: 25%;
-    bottom: 10%;
-    /*  outline: 1px dashed blue;*/
+    left: 40%;
+    bottom: 30%;
+      outline: 1px dashed blue;
     width: 50%;
     height: auto;
   }
@@ -541,7 +541,7 @@ footer {
   /*ajusta a posição do botao do curriculum*/
   #cv {
     /* border: 1px solid blue;*/
-    bottom: 5%;
+    bottom: 25%;
   }
 
   /*ajusta a caixa da descrição para o tamanho mais pequeno do ecrã*/
