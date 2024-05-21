@@ -426,7 +426,6 @@ article img {
 
 /* Código para colocar o vídeo responsive para todos os ecrãs */
 .video-container{
-  outline: 1px solid red;
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; /*Este valor é calculado para manter a proporção 16:9, o container ajusta-se automaticamente com base na largura do container pai.*/
