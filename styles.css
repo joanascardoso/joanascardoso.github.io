@@ -432,7 +432,7 @@ article img {
   padding-bottom: 56.25%; /*Este valor é calculado para manter a proporção 16:9, o container ajusta-se automaticamente com base na largura do container pai.*/
 }
 
-/*Iframe coloca o video através do vimeo, o border 0 retira a borda default do iframe*/
+/*Iframe coloca o video através do vimeo (como é muito pesado para o github, tem que ser redirecionado) e o border 0 retira a borda default do iframe*/
 iframe{
   position: absolute; /*Posiciona o iframe absolutamente dentro do container, permitindo que ele ocupe todo o espaço disponível.*/
   top: 0;
