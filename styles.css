@@ -456,7 +456,7 @@ footer {
   /*define a largura a 100% da janela*/
   font-size: 1.2em;
   /*define o tamanho da fonte*/
-  word-spacing: 7em;
+  word-spacing: 5em;
   /*ajusta o espaçamento entre palavras*/
   text-align: center;
   /*alinha o texto ao centro*/
@@ -630,6 +630,8 @@ footer {
   .imagens figure {
     width: 84%;
   }
+
+  
 }
 
 
